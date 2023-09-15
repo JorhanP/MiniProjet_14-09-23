@@ -16,6 +16,9 @@ protected:
 
 public:
 
+	Moteur();
+	~Moteur();
+	Moteur(int puissance);
 	int getPuissance();
 	void setPuissance(int puissance);
 
