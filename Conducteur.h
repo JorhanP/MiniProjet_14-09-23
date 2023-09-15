@@ -23,9 +23,12 @@ protected:
 
 public:
 
+    Conducteur();
+    ~Conducteur();
+    Conducteur(std::string nom, std::string prenom, int annee);
     std::string getNom();
     std::string getPrenom();
-    std::string getAnneNaissance();
+    int getAnneNaissance();
 
     void afficheMotos();
     void addMoto(Moto* newMoto);
