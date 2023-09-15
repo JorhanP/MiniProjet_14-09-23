@@ -14,19 +14,9 @@ int main() {
 
 	Conducteur nouveauConducteur;
 
-	cout << "Nom";
-	cin >> nom;
-	cout << "Prenom";
-	cin >> prenom;
-	cout << "Age";
-	cin >> annee;
-
 	cout << "Le nom du conducteur est " << nouveauConducteur.getNom() << "\n";
 	cout << "Le prenom du conducteur est " << nouveauConducteur.getPrenom() << "\n";
 	cout << "L'age du conducteur est " << nouveauConducteur.getAnneNaissance() << "\n";
-
-
-
 
 
 
