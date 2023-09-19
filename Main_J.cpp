@@ -26,6 +26,11 @@ int main() {
 	cout << "Le prenom du conducteur est " << nouveauConducteur.getPrenom() << "\n";
 	cout << "L'age du conducteur est " << nouveauConducteur.getAnneNaissance() << "\n";
 
+	Moto nouvelleMoto();
+
+
+
+
 
 }
 
