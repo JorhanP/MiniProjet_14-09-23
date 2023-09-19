@@ -1,0 +1,44 @@
+\doxysection{Conducteur.\+h}
+\hypertarget{_conducteur_8h_source}{}\label{_conducteur_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CONDUCTEUR\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CONDUCTEUR\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_moto}{Moto}};}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_conducteur}{Conducteur}}}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \ \ \ \ std::string\ nomConducteur;}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \ \ \ \ std::string\ prenomConducteur;}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ anneNaissance;}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_moto}{Moto}}*\ mesMotos[10];}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_conducteur}{Conducteur}}();}
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_conducteur}{\string~Conducteur}}();}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{class_conducteur}{Conducteur}}(std::string\ nom,\ std::string\ prenom,\ \textcolor{keywordtype}{int}\ annee);}
+\DoxyCodeLine{00029\ \ \ \ \ std::string\ getNom();}
+\DoxyCodeLine{00030\ \ \ \ \ std::string\ getPrenom();}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ getAnneNaissance();}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ afficheMotos();}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ addMoto(\mbox{\hyperlink{class_moto}{Moto}}*\ newMoto);}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ rmMoto(\mbox{\hyperlink{class_moto}{Moto}}*\ rmMoto);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
