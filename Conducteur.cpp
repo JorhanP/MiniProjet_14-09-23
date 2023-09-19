@@ -4,7 +4,7 @@ using namespace std;
 
 Conducteur::Conducteur() {
 
-	this->nomConducteur = "jean";
+	this->prenomConducteur = "jean";
 	this->nomConducteur = "pierr";
 	this->anneNaissance = 14;
 }

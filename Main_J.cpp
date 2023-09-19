@@ -7,17 +7,24 @@
 using namespace std;
 
 
-int nom, prenom, annee;
+int annee;
+string nom, prenom;
 
 
 int main() {
 
-	Conducteur nouveauConducteur;
+	cout << "Annee" << endl;
+	cin >> annee;
+	cout << "Nom" << endl;
+	cin >> nom;
+	cout << "Prenom" << endl;
+	cin >> prenom;
+
+	Conducteur nouveauConducteur(nom,prenom,annee);
 
 	cout << "Le nom du conducteur est " << nouveauConducteur.getNom() << "\n";
 	cout << "Le prenom du conducteur est " << nouveauConducteur.getPrenom() << "\n";
 	cout << "L'age du conducteur est " << nouveauConducteur.getAnneNaissance() << "\n";
 
-
-
 }
+
